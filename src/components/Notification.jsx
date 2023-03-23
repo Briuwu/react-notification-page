@@ -29,10 +29,10 @@ const Notification = () => {
   };
 
   return (
-    <section className="mx-auto my-8 grid max-w-[720px] gap-8 rounded-lg bg-white p-8">
+    <div className="mx-auto my-8 grid max-w-[720px] gap-8 rounded-lg bg-white p-8">
       <nav className="flex justify-between">
         <div className="flex items-center gap-2">
-          <h1 className=" text-2xl font-extrabold">Notifications</h1>
+          <p className=" text-2xl font-extrabold">Notifications</p>
           <span className="grid h-6 w-8 place-items-center rounded-md bg-blue font-bold text-white">
             {notifLength}
           </span>
@@ -46,7 +46,7 @@ const Notification = () => {
           <EachNotif key={el.id} el={el} handleRead={handleRead} />
         ))}
       </div>
-    </section>
+    </div>
   );
 };
 
