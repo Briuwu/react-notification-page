@@ -62,7 +62,7 @@ export const notificationsData = [
   {
     id: 7,
     isRead: true,
-    avatar: "./assets/images/avatar-nathan-peterson.webp",
+    avatar: "./assets/images/avatar-anna-kim.webp",
     name: "Anna Kim",
     action: "left the group",
     activity: "Chess Club",
